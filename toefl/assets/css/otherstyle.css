@@ -1,0 +1,157 @@
+/*!
+ * Start Bootstrap - Portfolio Item (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+    /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+nav{
+	background-color: #0360a3;
+}
+
+li a{
+	color: white;
+}
+
+
+footer {
+    margin: 30px 0;
+}
+h3{
+	margin-bottom: 20px;
+}
+.grey-text{
+	color: #d1d1d1;
+}
+
+.logo{
+    background-color: #f1f1f1;
+    padding: 70px 0 25px 25px;
+    margin-bottom: 30px;
+    border:1px solid #d1d1d1;
+    border-radius: 5px;
+}
+.tile{
+	background-color: #e6eaf2;
+	border-radius: 0 0 10px 10px;
+	border: grey 10px;
+	border-color: grey;
+	font-style:justify;
+	padding: 5px 20px 20px 20px;
+	line-height: 20px;
+	margin-bottom: 5%;
+	display: block;
+
+}
+.line{
+	background-color:#0360a3;
+	height: 5px;
+}
+.title{
+	background-color: #f1f1f1;
+	width: 100%;
+	border-left: 6px solid #0360a3;
+	padding:5px;
+}
+#sidebar {
+    padding: 10px;
+    border:1px solid #e8e8e8;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    display: block;
+    height: 100%;
+    margin-bottom: 30px;
+    border:1px solid #d1d1d1;
+    border-radius: 5px;
+}
+
+#sidebar a:hover, a:focus {
+    color: white;
+    text-decoration: none;
+}
+
+#sidebar.nav > li > a,
+#sidebar.nav > li > a:link {
+    color: black;
+    margin-bottom: 10px;
+}
+
+#sidebar.nav > li > a:hover,
+#sidebar.nav > li > a:focus {
+    background-color: #e8e8e8;
+}
+
+#sidebar.nav-pills > li.active > a,
+#sidebar.nav-pills > li.active > a:hover,
+#sidebar.nav-pills > li.active > a:focus {
+    color: #FFF;
+    background-color: #0360a3;
+}
+.notif{
+	margin:20px 0 20px 0;
+}
+
+.content{
+    border:1px solid #d1d1d1;
+    border-radius: 5px;
+    padding: 2%;
+}
+
+.bio{
+     padding: 3%;
+}
+
+.bio table, th, td {
+    padding: 10px 0 10px 0;
+    margin-bottom: 3%
+}
+
+.jadwal-table {
+	padding: 10px;
+    empty-cells: show;
+    border: 1px solid #cbcbcb;
+}
+.jadwal-table table {
+	padding: 10px;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.jadwal-table th{
+    background-color: #0360a3;
+    color: white;
+    border: 1px solid grey;
+    padding: 10px;
+}
+.jadwal-table td{
+    border: 1px solid grey;
+    padding: 10px;
+}
+
+.skor-table {
+    padding: 10px;
+    empty-cells: show;
+    border: 1px solid grey;
+}
+.skor-table table {
+    padding: 10px;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.skor-table th{
+    background-color: #f1f1f1;
+    border: 1px solid grey;
+    padding: 10px;
+}
+.skor-table td{
+    border: 1px solid grey;
+    padding: 10px;
+}
+.total th, .total td{
+    background-color: #0360a3;
+    color: white;
+    border: 1px solid grey;
+    padding: 10px;
+}
